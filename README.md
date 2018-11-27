@@ -92,13 +92,36 @@ a:hover{ hace que los elementos del tipo a respondan cuando el raton esté encim
 ### Padding:
 ### Border:
 ## Explica que son los selectores de CSS y pon ejemplos
+Utilizamos los selectores para asignar un conjunto de propiedades a los elementos indicados.
+Algunos ejemplos son:
+
+* Selector universal
+
+. Selector de clase
+
+p selector de parrafo
+
+[attribute] selector de atributos
+
+
+
+
 ## Di a quien afectan:
 ### p a { color: red;
+a todos los elementos a dentro de un elemento p
 ### p > a { color: red; }
+a todos los a cuyo padre sea un p
+
 ### h1 + h2 { color: red }
+a todos los h2 que esten al lado de un h1
 ### a[class] { color: blue; }
+a todos los links que tengan asignada una classe
+
 ### a[class="externo"] { color: blue; }
+a todos los links que tengan asignada una clase llamada externo
 ### a[href="http://www.ejemplo.com"] { color: blue; }
+a todos los links que apunten a esa pagina.
+
  
 
 
