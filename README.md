@@ -14,17 +14,15 @@
 ## Explica las 3 formas de usar CSS en HTML
 ### Podemos utilizar el css detro del head con la siguiente etiqueta
 ```html
-	<head></head> 
-
-	type="text/css"
+	<head>type="text/css"</head> 	
 ```
   ### En una pagina aparte
 ```html
 
-	<head>	
-    	<style type="text/css">
-    	</style>
-	</head>
+<head>	
+    <style type="text/css">
+    </style>
+</head>
 ```
 ### Dentro del html
 ```html
