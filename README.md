@@ -77,11 +77,11 @@ Esta es la sintaxis (w3schools)
 selector:pseudo-class {
     property:value;
 }
-Estos son algunos ejemplos
-p:first-child i{ para seleccionar todos los parrafos que sean el primer hijo}
-q:lang(no) { para hacer cambios segun la lengua que este utilizandose}
-a:hover{ hace que los elementos del tipo a respondan cuando el raton esté encima}
-:not(p){ afecta a todos los que no sean el elemento mencionado, en este caso p}
+-Estos son algunos ejemplos
+-p:first-child i{ para seleccionar todos los parrafos que sean el primer hijo}
+-q:lang(no) { para hacer cambios segun la lengua que este utilizandose}
+-a:hover{ hace que los elementos del tipo a respondan cuando el raton esté encima}
+-:not(p){ afecta a todos los que no sean el elemento mencionado, en este caso p}
 
 ## Explica el modelo de caja de CSS (margin, border y padding).
 ### Margin:
