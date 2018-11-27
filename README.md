@@ -88,9 +88,14 @@ a:hover{ hace que los elementos del tipo a respondan cuando el raton esté encim
 :not(p){ afecta a todos los que no sean el elemento mencionado, en este caso p
 
 ## Explica el modelo de caja de CSS (margin, border y padding).
-### Margin:
+Una de las propiedades que comparten los tres y que hay que tener muy en cuenta es que el valor que le asignemos se <b>suma </b>
+al valor de las medidas de la caja. Otra propiedad que comparten es que todas se pueden afectar por separado en cada lado con los selectores top right bottom y left.
+### Margin: 
+Es la distancia que separa una caja de sus vecinos.
 ### Padding:
+es la distancia que tiene los elementos de la caja respecto al borde de la caja.
 ### Border:
+es el elemento exterior de la caja. Su borde.
 ## Explica que son los selectores de CSS y pon ejemplos
 Utilizamos los selectores para asignar un conjunto de propiedades a los elementos indicados.
 Algunos ejemplos son:
@@ -115,12 +120,12 @@ a todos los a cuyo padre sea un p
 ### h1 + h2 { color: red }
 a todos los h2 que esten al lado de un h1
 ### a[class] { color: blue; }
-a todos los links que tengan asignada una classe
+a todos los elementos a que tengan asignada una classe
 
 ### a[class="externo"] { color: blue; }
-a todos los links que tengan asignada una clase llamada externo
+a todos links que tengan asignada una clase llamada externo
 ### a[href="http://www.ejemplo.com"] { color: blue; }
-a todos los links que apunten a esa pagina.
+a todos los elementos a que apunten a ese link.
 
  
 
