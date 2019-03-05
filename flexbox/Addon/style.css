@@ -1,0 +1,39 @@
+
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.marginBottom {
+    margin-bottom: 300px;
+}
+.entry {
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: 0.5em 0.75em;
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
+}
+
+.container {
+    background-color: rgb(92, 175, 226);
+}
+
+
+
+.flexSpaceAround {
+
+    justify-content: space-around;
+
+}
+.fullHeight{
+    height: 100vh;
+}
+.subContainer{
+    width: 60%;
+   margin: 0 auto;
+   background-color: #fff;
+}
+.space{
+    height: 10%
+}
