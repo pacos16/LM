@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baloncesto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container flexContainer itemCenter flexColumn">
+        <div >
+            <nav class="nav itemCenter">
+            
+                
+                <img src="https://cadenaser00.epimg.net/emisora/imagenes/2017/07/05/radio_san_sebastian/1499268719_903532_1499268761_noticia_normal.jpg" class="Cabecera" width="20%" > </img>
+        
+            </nav>
+        </div>
+        <div class="subContainer flexContainer flexRow">
+            <div class="col flexContainer flexColumn">
+                Equipo1 <input type="text" name="">
+                Partido1 <input type="number" name="" id="est11">
+                Partido2 <input type="number" name="" id="est12">
+                Partido3 <input type="number" name="" id="est13">
+                Media <input type="number" id="media1">
+            </div>
+            <div class="col flexContainer flexColumn">
+                Equipo2 <input type="text">
+                Partido1 <input type="number" id="est21" >
+                Partido2 <input type="number" name="" id="est22" >
+                Partido3 <input type="number" name="" id="est23" >
+                Media <input type="number" id="media2">
+            </div>
+
+            
+
+        </div>
+        <input type="button" id="Calcula" name="" value="CalculaMedia">
+    </div>
+  
+
+    <script type="text/javascript">
+    
+        document.getElementById("Calcula").addEventListener("click", medias)
+        
+        
+        
+        function medias() {
+            var est11 = document.getElementById("est11").value;
+            var est12 = document.getElementById("est12").value;
+            var est13 = document.getElementById("est13").value;
+            var est21 = document.getElementById("est21").value;
+            var est22 = document.getElementById("est22").value;
+            var est23 = document.getElementById("est23").value;
+            var media1 = (parseInt(est11) + parseInt(est12) + parseInt(est13)) / 3;
+            var media2 = (parseInt(est21) + parseInt(est22) + parseInt(est23)) / 3;
+
+            document.getElementById("media1").value = media1
+            document.getElementById("media2").value = media2
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>

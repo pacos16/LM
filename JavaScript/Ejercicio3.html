@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container flexContainer">
+        <div class="cont flexContainer itemCenter flexColumn">
+            <div>
+                <div class="nav flexContainer itemCenter">         
+                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20170522201553-dinero.jpeg?width=700&crop=2:1" class="Cabecera" width="20%" > </img>
+                </div>
+            </div>
+            <div>
+                Cantidad<input type="number" id="valor" name="">
+            </div>
+
+            <div>
+
+                <input type="button" id="Calcula" name="" value="Calcula Propina">
+            </div>
+            <div>
+                Resultado <input type="Number" name="" id="Resultado">
+            </div>
+        </div>
+    
+    </div>
+    <script type="text/javascript">
+
+        document.getElementById("Calcula").addEventListener("click",propina);
+
+        function propina(){
+            var precio = document.getElementById("valor").value;
+            var propina;
+
+            if(precio > 0 && precio<50){
+
+                propina=precio*0.2;
+
+            }else if(precio<200){
+                propina=precio*0.15;
+            }else{
+                propina=precio*0.10;
+            }
+
+            document.getElementById("Resultado").value = propina;
+
+        }
+    
+    </script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    padding: 5px;
+    margin:5px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.flexCenter {
+    justify-content: center;
+}
+.flexContainer {
+    display: flex;
+}
+.itemCenter {
+    align-items: center;
+}
+
+.leftCol{
+    order: 1;
+}
+.rightCol{
+    order: 2;
+}
+.flexColumn {
+    flex-direction: column;
+}
+.flexRow{
+    flex-direction: row;
+}
+.cont{
+    width: 100%
+}
