@@ -32,7 +32,7 @@ Eje secundario: Es el eje que define la posición vertical de los elementos - Fl
 Direcciones: Las partes de inicio principal / fin principal e inicio secundario / fin secundario del Contenedor - Flex definen el origen y final del flujo de elementos - Flex.
 
 Dimensiones: Esto equivale a la anchura (tamaño principal) y la altura (tamaño secundario) del elemento - Flex que dependen de eje principal y eje secundario.
-(https://filisantillan.com/el-gran-poder-de-css3-flexbox/ "Tutorial")
+[](https://filisantillan.com/el-gran-poder-de-css3-flexbox/ "Tutorial")
 
 ## 3.Javascript y usos.
 
