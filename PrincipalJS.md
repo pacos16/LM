@@ -32,8 +32,28 @@ Eje secundario: Es el eje que define la posición vertical de los elementos - Fl
 Direcciones: Las partes de inicio principal / fin principal e inicio secundario / fin secundario del Contenedor - Flex definen el origen y final del flujo de elementos - Flex.
 
 Dimensiones: Esto equivale a la anchura (tamaño principal) y la altura (tamaño secundario) del elemento - Flex que dependen de eje principal y eje secundario.
+
 [Tutorial]:https://filisantillan.com/el-gran-poder-de-css3-flexbox/
 
 ## 3.Javascript y usos.
 
+JavaScript es un lenguaje de programación que junto con html y css es capaz de crear (además de páginas web) todo tipo de aplicaciones gracias a distintas librerias como nodejs y los motores de chrome.
+
+Con javascript es posible realizar cálculos matemáticos y todo tipo de tareas relacionada
+con fechas, el tiempo, la hora y otras funciones de programación. Algunas características son:
+Facilitar al usuario interactuar con el contenido de la página con botones, enlaces, bloques.
+Enviar o transferir datos desde el servidor sin tener que refrescar la página, usando AJAX.
+Ejemplo: Escribir actualizaciones en redes sociales, recibir notificaciones en tiempo real, enviar y recibir mensajes.
+Manipular la estructura de las páginas (DOM).
+Convertir las páginas en aplicaciones web, con las que se puede jugar, oír música o ver video, editar imágenes, etc.
+
+
 ## 4.Enumerar y definir los frameworks de javascript mas famosos.
+
+### React.js
+React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre, han participado en el proyecto más de mil desarrolladores diferentes.
+
+### Angular.js
+AngularJS es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles. 
+
+
