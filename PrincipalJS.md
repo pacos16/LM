@@ -7,10 +7,12 @@ debido a que se usan las mismas tecnologías que para el desarrollo web. Html cs
 Se puede resumir en dos partes, el node js y los procesos chrome.
 
 Basicamente esta tecnologia utiliza las librerias graficas de los navegadores para poder construir
-aplicaciones de escritorio sin tener que aprender nuevas librerias gráficas.
+aplicaciones de escritorio sin tener que aprender a usar nuevas librerias gráficas.
 
 
 ## 2.Flexbox, definicion y lo que caracteriza.
+
+
 
 
 
